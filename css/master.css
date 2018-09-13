@@ -1,5 +1,14 @@
+
+.page{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  padding: 30px 20px 20px;
+  margin: 0;
+}
+
 body{
-  background-color: White;
+  background-color: #e8ecf1;
   font-family: monospace;
 }
 
@@ -7,17 +16,46 @@ body{
 
 
 sub{
-  font-size: 160%;
+  font-size: 180%;
+}
+#top{
+   background: url(../img/road.jpg) 100% 100% no-repeat;
 }
 
 #top h1{
+
+  font-size: 300%;
+  left: 500px;
   text-align: center;
+  color: White;
+  font-size: 500%;
+
+
 }
 #top h2{
   text-align: center;
-  font-family: Cookie,cursive;
   font-style: italic;
   font-size: 120%;
+  color: White;
+}
+.background-image{
+
+}
+
+.background-text{
+  position: relative;
+  margin-top: -40%;
+  width: 100%;
+
+
+
+}
+
+.background-text h1{
+  color: white;
+  font-size: 180%;
+  text-align: center;
+
 }
 
 .Primary-nav {
@@ -27,7 +65,7 @@ sub{
   left: 0;
   width: 100%;
   text-align: left;
-  background: rgba(220, 20, 60, 1);
+  background: rgba(0, 0, 0, 0.3);
 
 }
 .Primary-nav ul{
@@ -42,17 +80,27 @@ sub{
   display: inline-block;
   padding: 20px;
   color: White;
+
 }
 .Primary-nav a:hover{
   background: rgba(255, 255, 255, .3);
 }
 
 
-.page{
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  padding: 120px 20px 20px;
-  margin: 0;
-  border-bottom: 20px solid black;
+
+.about-image{
+float: right;
+padding-right: 60px;
+margin-left: 20px;
+}
+
+#about h1{
+  font-size:300%;
+  padding-top: 1px;
+  font-family: Cookie,cursive;
+  text-align: center;
+
+}
+#about p{
+  text-align: center;
 }
